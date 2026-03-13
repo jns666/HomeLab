@@ -1,2 +1,29 @@
 # HomeLab
-I am building a HomeLab to host a private cloud and VPN services, Pi Hole and a monitoring solution because I like to look at stats.
+homelab/
+│
+├── README.md
+│
+├── pihole/
+│   ├── README.md
+│   ├── hardware.md
+│   ├── software.md
+│   ├── troubleshooting.md
+│   └── config/
+│       └── (clear config files)
+│
+├── vpn/
+│   ├── README.md
+│   ├── hardware.md
+│   ├── software.md
+│   ├── troubleshooting.md
+│   └── config/
+│       └── (VPN configs, keys excluded)
+│
+└── monitoring/
+    ├── README.md
+    ├── hardware.md
+    ├── software.md
+    ├── troubleshooting.md
+    └── config/
+        └── (Prometheus or grafana configs)
+
